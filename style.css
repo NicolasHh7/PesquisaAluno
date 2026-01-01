@@ -1,0 +1,60 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Corpo da página */
+body {
+  background-color: #f2f6fc;
+  padding: 40px;
+}
+
+/* Título */
+h2 {
+  color: #2c3e50;
+  margin-bottom: 15px;
+}
+
+/* Campo de pesquisa */
+input[type="search"] {
+  width: 260px;
+  padding: 8px 10px;
+  border: 1px solid #bfc9d9;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+/* Botão */
+button {
+  padding: 8px 15px;
+  background-color: #4a90e2;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Hover no botão */
+button:hover {
+  background-color: #357abd;
+}
+
+/* Lista de alunos */
+.alunos {
+  margin-top: 25px;
+  list-style: none;
+  max-width: 400px;
+}
+
+/* Cada aluno */
+.aluno {
+  background-color: white;
+  padding: 10px;
+  margin-bottom: 8px;
+  border-radius: 5px;
+  border-left: 5px solid #4a90e2;
+  color: #333;
+}
